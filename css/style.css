@@ -106,10 +106,10 @@ h1,h2,h3,h4,h5,h6,label,p{
     font-size: 15px;
 }
 .dropdown-menu.columns-2 {
-    min-width: 400px;
+    min-width: 100px;
 }
 .dropdown-menu.columns-3 {
-    min-width:550px;
+    min-width:250px;
 }
 .multi-column-dropdown {
     list-style: none;
@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5,h6,label,p{
     font-weight: 300;
 }
 .dropdown-menu {
-    right: 260px !important;
+    right: 480px !important;
     left:inherit;
 }
 .nav_bottom{
@@ -164,11 +164,11 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 .nav-list { border-bottom: 1px solid #eee; }
 .nav-list > li {
-  padding:20px 15px 15px;
+  padding: 5px;
   border-left: 1px solid #eee;
   margin-right: 0 !important;
 }
-.nav-list > li:last-child { border-right: 1px solid #eee; }
+.nav-list > li:last-child { border-right: 0px solid #eee; }
 .nav-list > li > a:hover { text-decoration: none; }
 .nav-list > li > a > span {
   display: block;
@@ -177,9 +177,9 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 .mega-dropdown { position: static !important; }
 .mega-dropdown-menu {
-  padding: 20px 15px 15px;
+  padding: 4px;
   text-align: center;
-  width: 53%;
+  width: 10%;
 }
 ul.nav_1 {
     text-align: center;
