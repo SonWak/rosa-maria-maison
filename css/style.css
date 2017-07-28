@@ -1043,7 +1043,7 @@ ul.social {
 /*--menu-drop--*/
 h3.cate {
     color: #fa03bb;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Poiret One', cursive;
     font-weight: 700;
 }
@@ -1065,8 +1065,8 @@ ul.kid-menu{
   margin: 0.3em 0;
 	display:inline-block;
 	position: relative;
-	color: #B2B2B2;
-	font-size: 1.4em;
+	color: #777777;
+	font-size: 1.5em;
 	text-decoration:none;
 }
 .menu-drop > li > a:hover{
