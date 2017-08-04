@@ -872,17 +872,52 @@ p.footer-class a:hover{
 	font-family: 'Poiret One', cursive;
 	font-weight:700;
 }
-.login-left h4{
-	color:#fa03bb;
-	font-size: 1.3em;
+.descricao h4{
+  color: #fa03bb;
 }
- .login-left p {
+.acount-btn:hover, .login-left input[type="submit"]:hover{
+background:#fa03bb;
+text-decoration:none;
+color:#fff;
+}
+.login-left form {
+	padding: 1em 0;
+}
+.login-left span {
 	color: #b2b2b2;
+	font-size:0.9em;
+	padding-bottom: 0.4em;
 	display: block;
+}
+.login-left input[type="text"] {
+	border: 1px solid #bbb;
+	outline-color:#fa03bb;
+	width: 96%;
+	font-size:0.9em;
+	padding:10px;
+	  margin: 0.5em 0;
+}
+.login-left input[type="password"] {
+	border: 1px solid #bbb;
+	outline-color:#fa03bb;
+	width: 96%;
+	font-size:0.9em;
+	padding:10px;
+	  margin: 0.5em 0;
+}
+.login-left input[type="submit"] {
+	background:#403b37;
+	color: #FFF;
 	font-size: 0.9em;
-	margin: 1em 0 1.5em 0;
-	line-height: 1.8em;
-	width: 95%;
+	padding: 0.4em 1em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	text-transform: uppercase;
+	border:none;
+	outline:none;
 }
 .acount-btn {
 	background:#403b37;
