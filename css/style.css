@@ -213,47 +213,95 @@ ul.nav_1 li.last{
 ul.nav-list.list-inline li {
     float: left;
 }
+
+/*--form--*/
+.files input {
+    outline: 2px dashed #e5c1e4;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 100px 30%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #ecd4eb;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #ecd4eb;
+ }
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 30px;
+    content: " ou arraste e solte aqui. ";
+    display: block;
+    margin: 0 auto;
+    color: #ef8ed6;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 /*--banner--*/
 .up-t {
-    padding: 8.2em 0 0;
+  padding: 8.2em 0 0;
 }
 .col-md3 h3 {
-    color: #fff;
-    font-size: 4em;
-    font-family: 'Poiret One', cursive;
-    font-weight: 700;
-    background: rgba(250, 3, 187, 0.5);
-    padding: 0.3em;
+  color: #fff;
+  font-size: 4em;
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  background: rgba(250, 3, 187, 0.5);
+  padding: 0.3em;
 }
 .tes {
-    position: absolute;
-    top: 11em;
-    left: 20em;
+  position: absolute;
+  top: 11em;
+  left: 20em;
 }
 .tes h2 {
-    font-size: 4em;
-    color:#fa03bb;
+  font-size: 4em;
+  color:#fa03bb;
 	margin:0;
 	font-family: 'Poiret One', cursive;
 	font-weight:700;
 }
 .tes p {
-    font-size: 2em;
-    color: #fa03bb;
-    margin: 0.5em;
+  font-size: 2em;
+  color: #fa03bb;
+  margin: 0.5em;
 	text-align:right;
 }
 .tes h3 {
-    font-size: 2em;
-    color: #ffffff;
-    margin: 0.5em;
+  font-size: 2em;
+  color: #ffffff;
+  margin: 0.5em;
 	/*-- agileits --*/
 	text-align:right;
 }
 .tes h4 {
-    font-size: 4em;
-    color:#ffffff;
-    margin: 1em 0 0;
+  font-size: 4em;
+  color:#ffffff;
+  margin: 1em 0 0;
 	text-align:center;
 	font-family: 'Poiret One', cursive;
 	font-weight:700;
@@ -591,6 +639,19 @@ ul.callbacks_tabs.callbacks1_tabs {
 .top-footer1 input[type="submit"]:hover {
   background-color:#fa03bb;
 }
+.top-footer1 input[type="reset"] {
+  font-size: 0.9em;
+  color: #fff;
+  background-color:#403b37;
+  border: none;
+  padding: 0.8em 0em;
+  width: 30%;
+  vertical-align: top;
+  outline: none;
+}
+.top-footer1 input[type="reset"]:hover {
+  background-color:#fa03bb;
+}
 .footer {
   border-top: 1px solid #BDBDBD;
 }
@@ -716,6 +777,24 @@ p.footer-class a:hover{
 	-ms-transition: 0.5s all;
 }
 .contact-form input[type="submit"]:hover{
+	background: #fa03bb;
+}
+.contact-form input[type="reset"]{
+	background: #403b37;
+	color: #fff;
+	border: none;
+	outline: none;
+	margin:1em 15px 0;
+	padding: 0.3em 1em;
+	font-size: 1.2em;
+	display: inline-block;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.contact-form input[type="reset"]:hover{
 	background: #fa03bb;
 }
 .address-grid i{
@@ -1020,6 +1099,22 @@ ul.social {
 	outline:none;
 }
 .register-but input[type="submit"]:hover {
+	background:#403b37;
+}
+.register-but form input[type="reset"] {
+	background:#fa03bb;
+	color: #FFF;
+	font-size:1em;
+	padding: 0.4em 1em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	border:none;
+	outline:none;
+}
+.register-but input[type="reset"]:hover {
 	background:#403b37;
 }
 .mation{
