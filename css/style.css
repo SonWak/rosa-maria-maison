@@ -809,7 +809,7 @@ p.footer-class a:hover{
 	  margin-top: 0.5em;
 }
 .address1 p{
-	font-size:1.8em;
+	font-size:1em;
 	color: #b2b2b2;
 	line-height: 1.7em;
 
@@ -1803,7 +1803,7 @@ ul.nav_1 li {
     margin: 0 0px 0.8em;
 }
 .address1 p {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 /*--account--*/
 .account h2,.register h2 {
@@ -1988,7 +1988,7 @@ ul.social {
   margin: 0 5% 0 0;
 }
 .address1 p {
-  font-size: 1.4em;
+  font-size: 1em;
   line-height: 1.7em;
 }
 .address-grid {
@@ -2386,7 +2386,7 @@ select.in-drop, select.in-drop1 {
   font-size: 2.5em;
 }
 .address1 p {
-  font-size: 1.2em;
+  font-size: 0.8em;
 }
 .address {
   padding: 2em 0 0;
@@ -2714,7 +2714,7 @@ h3.cate {
   font-size: 2em;
 }
 .address1 p {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 .address1 {
   margin-top: 0;
