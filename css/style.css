@@ -2855,3 +2855,9 @@ th {
     font-size: 0.875em;
 }
 }
+.galery{
+  display: block;
+}
+.galery:hover{
+  opacity: 80%;
+}
